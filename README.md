@@ -2,17 +2,14 @@
 
 Aqui temos a construção de um blog utilizando o framework django, onde será trabalhada com maior foco no front-end
 
-<<<<<<< HEAD
+
 * deve-se criar um ambiente virtual env, para que o projeto possa ser inicializado, a criação do ambiente se da pelo comando:
-=======
-* para iniciar um projeto em django é necessario  instalar as bibliotecas encontradas no arquivo requetiments.txt, basta abrir o terminal e navegar ate onde o arquivo se encontra e executar o seguinte comando:
->>>>>>> 08caa1a95f9dd16ea71ae0af8b5bcfe0c117d7c9
 
     python3 -m venv env
-
+    
 * Apos sua criação o ambiente virtual deve ser inicializado 
 
-    LINUX/MAC source env/Scripts/activate               WINDOWS  env\Scripts\Activate.bat
+    LINUX/MAC: source env/Scripts/activate               WINDOWS:  env\Scripts\Activate.bat
 
 * para iniciar um projeto em django é necessario instalar as bibliotecas encontradas no arquivo requetiments.txt, basta abrir o terminal e navegar ate onde o arquivo se encontra e executar o seguinte comando:
 
