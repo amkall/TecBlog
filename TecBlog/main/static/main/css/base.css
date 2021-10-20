@@ -1,0 +1,67 @@
+#navbar{
+    background-color: rgb(238, 171, 46);
+    padding: 20px ;
+}
+#titulo{
+    font-size:50px;
+    text-align: center;
+
+    font-family: Arial;
+   
+}
+
+#menu{
+    text-align: center;
+}
+#menu a{
+    text-decoration-line: none;
+    color: white;
+
+    margin: 20px;
+    font-size: 20px;
+}
+#corpo{
+    width: 100%;
+    max-width: 70%;
+    margin: 20px auto;  
+    border: red 1px solid;
+
+
+}
+body{
+    background-color: rgb(215, 219, 221);
+}
+
+.post{
+    border: blue 1px solid;
+    width: 100%;
+    max-width: 60%;
+
+    padding: 0 20px;
+    background-color: white;
+}
+.post img{
+    height: auto; 
+    width: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+}
+
+.menu2{
+    float: right;
+    clear: both;
+
+    border: orange 1px solid;
+
+    font-size:  13px;
+    background-color: white;
+
+    width: 100%;
+    max-width: 32%;
+}
+
+#menu2 h2{
+    margin: 10px;
+    background-color: rgb(189, 184, 184);
+}
+
