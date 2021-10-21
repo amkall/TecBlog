@@ -1,24 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
+}
 #navbar{
-    background-color: rgb(238, 171, 46);
-    padding: 20px ;
-}
-#titulo{
-    font-size:50px;
-    text-align: center;
-
-    font-family: Arial;
-   
-}
-
-#menu{
+    background-color: #f7b600;
     text-align: center;
 }
-#menu a{
-    text-decoration-line: none;
+#titulo, #menu{
+    padding: 10px;   
+}
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+.branco{
     color: white;
-
-    margin: 20px;
-    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: white;
+}
+a:hover{
+    color: #f7b400;
+    background-color: white;
 }
 #corpo{
     width: 100%;
@@ -28,9 +39,7 @@
 
 
 }
-body{
-    background-color: rgb(215, 219, 221);
-}
+
 
 .post{
     border: blue 1px solid;
