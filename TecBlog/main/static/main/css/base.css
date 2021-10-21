@@ -2,75 +2,81 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
+#navbar a:link, #navbar a:visited{
+    color: white;
+    padding: 8px 12px;
+}
+#navbar a:hover{
+    color: #f7b400;
+    background-color: white;
+}
 body{
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #e6e6e6;
 }
-#navbar{
-    background-color: #f7b600;
+.branco{
+    color: white;
+}
+#corpo{
+    width: 920px;
+    margin: 0px auto; 
+    
+    margin-top: 20px;
+}
+.data{
+    font-size: 0.8em;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 10px;
+
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer{
+    background-color: #CCC;
+    width: 890px;
     text-align: center;
+
+    margin: 0px auto;
+    clear: both;
+    padding: 15px;
 }
-#titulo, #menu{
-    padding: 10px;   
-}
+
 h1{
     color: #4e4e4e;
     font-size: 2.5em;
 }
-.branco{
-    color: white;
+h2{
+    color: #f7b600;
 }
-a{
-    text-decoration: none;
-}
-a:link, a:visited{
-    color: white;
-}
-a:hover{
-    color: #f7b400;
+.menu-lateral{
     background-color: white;
-}
-#corpo{
-    width: 100%;
-    max-width: 70%;
-    margin: 20px auto;  
-    border: red 1px solid;
+    width: 240px;
 
-
-}
-
-
-.post{
-    border: blue 1px solid;
-    width: 100%;
-    max-width: 60%;
-
-    padding: 0 20px;
-    background-color: white;
-}
-.post img{
-    height: auto; 
-    width: auto; 
-    max-width: 100%; 
-    max-height: 100%;
-}
-
-.menu2{
     float: right;
-    clear: both;
-
-    border: orange 1px solid;
-
-    font-size:  13px;
+}
+#titulo, #menu{
+    padding: 10px;   
+}
+#navbar{
+    background-color: #f7b600;
+    text-align: center;
+}
+.post{
     background-color: white;
+    width: 660px;
 
-    width: 100%;
-    max-width: 32%;
+    float: left;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+
 }
 
-#menu2 h2{
-    margin: 10px;
-    background-color: rgb(189, 184, 184);
-}
+
 
