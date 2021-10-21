@@ -5,6 +5,15 @@
 a{
     text-decoration: none;
 }
+
+
+ a:link,a:visited{
+    color: #f7b600;
+}
+a:hover{
+    text-decoration: underline;
+}
+
 #navbar a:link, #navbar a:visited{
     color: white;
     padding: 8px 12px;
@@ -26,6 +35,9 @@ body{
     margin: 0px auto; 
     
     margin-top: 20px;
+}
+.conteudo-lateral a{
+    display: block;
 }
 .data{
     font-size: 0.8em;
@@ -53,11 +65,28 @@ h1{
 h2{
     color: #f7b600;
 }
+h3{
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
 .menu-lateral{
-    background-color: white;
     width: 240px;
 
     float: right;
+}
+.conteudo-lateral{
+    background-color: white;
+    padding: 10px;
+
+    margin-bottom: 20px;
+}
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+
+    border-bottom: #ccc dotted 1px;
+
 }
 #titulo, #menu{
     padding: 10px;   
