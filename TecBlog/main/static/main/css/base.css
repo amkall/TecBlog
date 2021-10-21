@@ -2,6 +2,23 @@
     margin: 0;
     padding: 0;
 }
+ /* inicio formatação navbar inicio*/
+#navbar{
+    background-color: #f7b600;
+    text-align: center;
+}
+.branco{
+    color: white;
+}
+#titulo, #menu{
+    padding: 10px;   
+}
+
+/* fim formatação de links fim*/
+
+/* ---------------------------------*/
+
+/* inicio formatação de links inicio*/
 a{
     text-decoration: none;
 }
@@ -22,14 +39,17 @@ a:hover{
     color: #f7b400;
     background-color: white;
 }
+/* fim formatação de links fim*/
+
+/* ---------------------------*/
+
+/* inicio formatação corpo inicio*/
 body{
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #e6e6e6;
 }
-.branco{
-    color: white;
-}
+
 #corpo{
     width: 920px;
     margin: 0px auto; 
@@ -47,17 +67,6 @@ body{
     margin-bottom: 10px;
     display: block;
 }
-
-.footer{
-    background-color: #CCC;
-    width: 890px;
-    text-align: center;
-
-    margin: 0px auto;
-    clear: both;
-    padding: 15px;
-}
-
 h1{
     color: #4e4e4e;
     font-size: 2.5em;
@@ -88,13 +97,6 @@ h3{
     border-bottom: #ccc dotted 1px;
 
 }
-#titulo, #menu{
-    padding: 10px;   
-}
-#navbar{
-    background-color: #f7b600;
-    text-align: center;
-}
 .post{
     background-color: white;
     width: 660px;
@@ -106,6 +108,21 @@ h3{
     margin-bottom: 20px;
 
 }
+/* fim formatação corpo fim*/
+
+/* ---------------------------*/
+.footer{
+    background-color: #CCC;
+    width: 890px;
+    text-align: center;
+
+    margin: 0px auto;
+    clear: both;
+    padding: 15px;
+}
+
+
+
 
 
 
