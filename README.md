@@ -23,4 +23,5 @@ Aqui temos a construção de um blog utilizando o framework django, onde será t
 
     python manage.py startapp nome_da_app
 
-O arquivo manage.py estara dentro da pasta criada pelo comando de criação do projeto
+O arquivo manage.py estara dentro da pasta criada pelo comando de criação do projeto.
+
